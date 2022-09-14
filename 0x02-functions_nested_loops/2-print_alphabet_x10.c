@@ -7,11 +7,12 @@
  */
 void print_alphabet_x10(void)
 {
-	char a; int i;
+	char a;
+	int i;
 
-	while (i = 0; i < 10; i++)
+	for (i = 0; i < 10; i++)
 	{
-		while (a = 'a'; a <= 'z'; a++)
+		for (a = 'a'; a <= 'z'; a++)
 		{
 			_putchar(i);
 		}
