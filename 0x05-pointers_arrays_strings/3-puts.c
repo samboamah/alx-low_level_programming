@@ -9,14 +9,16 @@
  */
 void _puts(char *str)
 {
-	int new = 0;
+	int count = 0;
 
-	while (str[new])
+	while (count >= 0)
 	{
-		putchar(str[new]);
-		new++;
+		if (str[count] == '\0')
+		{
+			_putchar('\n');
+			break;
+		}
+		_putchar(str[count]);
+		count++;
 	}
-	putchar('\n');
 }
-
-
