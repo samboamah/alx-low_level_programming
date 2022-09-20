@@ -10,12 +10,12 @@
 
 void _puts(char *str)
 {
-	int i = 0;
+	int lines = 0;
 
-	while (*(str + i) != '\0')
+	while (str[lines])
 	{
-		putchar(*(str + i));
-		i++;
+		_putchar(str[lines]);
+		lines++;
 	}
-	putchar(10);
+	_putchar('\n');
 }
