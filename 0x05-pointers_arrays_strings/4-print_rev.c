@@ -16,6 +16,5 @@
  15         while (c--)
  16                 _putchar(s[c]);
  17         _putchar('\n');
- 18
  19 }
-~
+
