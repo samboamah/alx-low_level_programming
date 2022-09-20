@@ -5,7 +5,7 @@
  *
  * @s: a pointer to an int
  *
- * return: return some value
+ * Return: return sring length
  */
 int _strlen(char *s)
 {
