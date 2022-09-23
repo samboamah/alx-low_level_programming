@@ -5,7 +5,7 @@
  *
  * @dest: destination.
  * @src: source.
- * @n: amount of bytes from src.
+ * @n: bytes from src.
  *
  * Return: dest.
  */
@@ -17,9 +17,10 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		dest[i] = src[i];
 	}
-	for ( ; i < n; i++)
+	while (i < n)
 	{
 		dest[i] = '\0';
+		i++;
 	}
 	return (dest);
 }
