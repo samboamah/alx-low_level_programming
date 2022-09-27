@@ -1,28 +1,17 @@
 #include "holberton.h"
-
 /**
- * _strpbrk - searches a string for any of a set of bytes.
- * 
- * @s: string.
- * @accept: another string.
- *
- * Return: a pointer to the byte in s that matches one of the
- * bytes in accept, or NULL if no such byte is found.
+ * _memset - fills memory with a constant byte,
+ * @s: memory area.
+ * @b: constant byte.
+ * @n: bytes filled.
+ * Return: the pointer to dest.
  */
-char *_strpbrk(char *s, char *accept)
+char *_memset(char *s, char b, unsigned int n)
 {
-	int k;
+	unsigned int k;
 
-	while (*s)
-	{
-		for (k = 0; accept[i]; k++)
-		{
-			if (*s == accept[k])
-			{
-				return (s);
-			}
-		}
-		s++;
-	}
-	return ('\0');
+	for (k = 0; k < n; k++)
+		*(s + k) =  b;
+
+	return (s);
 }
