@@ -10,11 +10,12 @@
 int main(int argc, char *argv[])
 {
 	int coins = 0;
-	int cents = atoi(argv[1]);
 
 	if (argc == 2)
 	{
-		for (; cents > 0; coins++)
+		int cents = atoi(argv[1]);
+
+		while (cents > 0)
 		{
 			if (cents >= 25)
 				cents -= 25;
@@ -26,12 +27,13 @@ int main(int argc, char *argv[])
 				cents -= 2;
 			else if (cents >= 1)
 				cents -= 1;
+			coins++;
 		}
 		printf("%d\n", coins);
+		return (0);
 	}
 	{
 		printf("Error\n");
 		return (1);
 	}
-	return (0);
 }
