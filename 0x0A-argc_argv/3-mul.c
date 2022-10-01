@@ -5,7 +5,8 @@
  * main - multiplies two numbers.
  * @argc: number of command line arguments.
  * @argv: array string to contain program command line arguments.
- * Return: 0 - success. 1 on fail.
+ * Return: 0 - success.
+ * 1 on fail.
  */
 int main(int argc, char *argv[])
 {
@@ -14,9 +15,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	int i = atoi(argv[1]);
-	int j = atoi(argv[2]);
-
-	printf("%d\n", i * j);
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 }
