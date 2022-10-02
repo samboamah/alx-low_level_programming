@@ -1,1 +1,1 @@
-This is a new c programming project
+This is a new static library
