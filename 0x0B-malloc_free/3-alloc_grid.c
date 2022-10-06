@@ -31,7 +31,7 @@ int **alloc_grid(int width, int height)
 		if (mem[i] == NULL)
 		{
 			for (k = i; k >= 0; k--)
-				free(mem[f]);
+				free(mem[k]);
 
 			free(mem);
 			return ('\0');
