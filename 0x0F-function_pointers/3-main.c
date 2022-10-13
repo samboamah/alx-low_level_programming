@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, j;
+	int a, b;
 	int (*operation)(int, int);
 
 	if (argc != 4)
@@ -32,9 +32,9 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	i = atoi(argv[1]);
-	j = atoi(argv[3]);
+	a = atoi(argv[1]);
+	b = atoi(argv[3]);
 
-	printf("%d\n", operation(i, j));
+	printf("%d\n", operation(a, b));
 	return (0);
 }
