@@ -34,3 +34,6 @@ All of the following folders are projects done during the studies:
 | [`0x15-file_io`](https://github.com/samboamah/alx-low_level_programming/tree/master/0x17-doubly_linked_lists) | It aims to learn about how to handle files (open, close, read and write), file descriptors, system calls and file permissions in **C language** |
 | [`0x17-doubly_linked_lists`](https://github.com/samboamah/alx-low_level_programming/tree/master/0x17-doubly_linked_lists) | It aims to learn about doubly linked list in **C language** |
 | [`0x18-dynamic_libraries`](https://github.com/samboamah/alx-low_level_programming/tree/master/0x18-dynamic_libraries) | It aims to learn about dynamic and shared libraries in **C language** |
+
+-----
+[Samuel Boamah](https://github.com/samboamah)
